@@ -1,0 +1,19 @@
+@import url("~/platform.css");
+
+Page {
+  background-color: #222;
+  font-size: 15;
+}
+TextField {
+  padding: 10;
+  font-size: 13;
+}
+
+Label {
+  color: #eee;
+}
+
+ActionBar {
+  background-color: #222;
+  color: #eee;
+}

@@ -1,0 +1,20 @@
+<ActionBar [title]="categoryName">
+  <NavigationButton text=""></NavigationButton>
+</ActionBar>
+<AbsoluteLayout>
+  <ScrollView #sv orientation="horizontal" ios.pagingEnabled="true" (scroll)="didScroll($event)" id="sv" left="0" top="0" width="100%"
+    height="100%">
+    <StackLayout orientation="horizontal" id="sl">
+      <template ngFor #picture [ngForOf]="buffer" #i="index">
+        <picture [pic]="picture" [show]="true"></picture>
+      </template>
+    </StackLayout>
+  </ScrollView>
+  <StackLayout left="0" top="0">
+    <Label text="Page: {{pageNum}}"></Label>
+    <Label text="Buf Idx: {{bufferIndex}}"></Label>
+    <Label text="Buf Siz: {{buffer.length}}"></Label>
+    <Label text="Scroll W: {{sv.scrollableWidth}}"></Label>
+    <Label text="Width: {{sv.getMeasuredWidth()}}"></Label>
+  </StackLayout>
+</AbsoluteLayout>

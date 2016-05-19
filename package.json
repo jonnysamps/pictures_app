@@ -1,0 +1,32 @@
+{
+  "name": "Pictures",
+  "version": "0.0.1",
+  "description": "NativeScript Pictures app",
+  "author": "Jonathan Samples @jonnysamps",
+  "nativescript": {
+    "id": "com.wbarrows.pictures",
+    "tns-ios": {
+      "version": "2.0.0"
+    },
+    "tns-android": {
+      "version": "2.0.0"
+    }
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.14",
+    "email-validator": "^1.0.4",
+    "nativescript-angular": "0.0.45",
+    "nativescript-social-share": "^1.1.3",
+    "tns-core-modules": "2.0.0"
+  },
+  "devDependencies": {
+    "babel-traverse": "6.7.6",
+    "babel-types": "6.7.7",
+    "babylon": "6.7.0",
+    "filewalker": "0.1.2",
+    "lazy": "1.0.11",
+    "nativescript-dev-typescript": "^0.3.2",
+    "typescript": "^1.8.10"
+  }
+
+}

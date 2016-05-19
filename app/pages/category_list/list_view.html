@@ -1,0 +1,10 @@
+<GridLayout>
+  <ListView [items]="categories" id="grocery-list" class="small-spacing">
+    <template #category="item">
+      <GridLayout columns="auto,*" class="medium-spacing">
+        <Image src="res://{{category.image}}" stretch="none" col="0"></Image>
+        <Label [text]="category.name" col="1"></Label>
+      </GridLayout>
+    </template>
+  </ListView> 
+</GridLayout>

@@ -1,0 +1,20 @@
+#add-bar {
+  background-color: #CB1D00;
+  padding: 5 10;
+}
+#add-image {
+  height: 15;
+  vertical-align: center;
+  margin-left: 10;
+  margin-right: 5;
+}
+#grocery {
+  color: white;
+}
+
+.medium-spacing {
+  padding-top: 10;
+  padding-bottom: 10;
+  padding-left: 20;
+  background-color: #222;
+}

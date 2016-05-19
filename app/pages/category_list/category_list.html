@@ -1,0 +1,7 @@
+<ActionBar title="Pictures"></ActionBar>
+<ScrollView>
+  <AbsoluteLayout>
+    <Image src="res://{{category.image}}" height="140" width="140" *ngFor="#category of categories; #i = index" 
+    [left]="rowWidth * ((i%2)+1) - 70" [top]="(rowHeight * i) + 20" (tap)="goToGallery(category)"></Image>
+  </AbsoluteLayout>
+</ScrollView>

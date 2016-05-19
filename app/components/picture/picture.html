@@ -1,0 +1,4 @@
+<Image *ngIf="imageSource" [imageSource]="imageSource" [width]="dimensions.width" [height]="dimensions.height" stretch="aspectFit"></Image>
+<GridLayout *ngIf="!imageSource" columns="*" rows="*" [width]="dimensions.width" [height]="dimensions.height">
+  <ActivityIndicator [busy]="true" row="0" style="color: #fff"></ActivityIndicator>
+</GridLayout>
