@@ -1,4 +1,4 @@
-import {Component, OnInit, OnDestroy, ChangeDetectorRef, Input} from "angular2/core";
+import {Component, OnInit, OnDestroy, ChangeDetectorRef, Input} from "@angular/core";
 import {Picture} from '../../shared/models/picture';
 import {Page} from "ui/page";
 import {Frame, topmost} from "ui/frame";

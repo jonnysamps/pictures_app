@@ -1,5 +1,5 @@
-import {Component, OnInit, OnDestroy, ChangeDetectorRef} from "angular2/core";
-import {Router} from "angular2/router";
+import {Component, OnInit, OnDestroy, ChangeDetectorRef} from "@angular/core";
+import {Router} from "@angular/router-deprecated";
 import {Category} from '../../shared/models/category';
 import {Page} from "ui/page";
 import {topmost} from "ui/frame";

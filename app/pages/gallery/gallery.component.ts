@@ -1,5 +1,5 @@
-import {Component, OnInit, OnDestroy, ChangeDetectorRef} from "angular2/core";
-import {Router} from "angular2/router";
+import {Component, OnInit, OnDestroy, ChangeDetectorRef} from "@angular/core";
+import {Router} from "@angular/router-deprecated";
 import {Picture} from '../../shared/models/picture';
 import {PictureService} from '../../shared/services/picture.service';
 import {Page} from "ui/page";

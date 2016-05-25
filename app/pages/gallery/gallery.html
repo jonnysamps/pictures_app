@@ -5,7 +5,7 @@
   <ScrollView #sv orientation="horizontal" ios.pagingEnabled="true" (scroll)="didScroll($event)" id="sv" left="0" top="0" width="100%"
     height="100%">
     <StackLayout orientation="horizontal" id="sl">
-      <template ngFor #picture [ngForOf]="buffer" #i="index">
+      <template ngFor let-picture="$implicit" [ngForOf]="buffer" let-i="index">
         <picture [pic]="picture" [show]="true"></picture>
       </template>
     </StackLayout>

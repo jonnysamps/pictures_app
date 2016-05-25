@@ -1,4 +1,4 @@
-import {Injectable} from "angular2/core";
+import {Injectable} from "@angular/core";
 import {Cache} from "ui/image-cache";
 import {fromNativeSource, ImageSource, fromFile} from "image-source";
 import {ImageFormat} from "ui/enums";

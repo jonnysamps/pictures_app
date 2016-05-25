@@ -1,6 +1,6 @@
-import {Component} from "angular2/core";
-import {HTTP_PROVIDERS} from "angular2/http";
-import {RouteConfig} from "angular2/router";
+import {Component} from "@angular/core";
+import {HTTP_PROVIDERS} from "@angular/http";
+import {RouteConfig} from "@angular/router-deprecated";
 import {NS_ROUTER_DIRECTIVES, NS_ROUTER_PROVIDERS} from "nativescript-angular/router";
 import {CategoryListPage} from "./pages/category_list/category_list.component";
 import {GalleryPage} from "./pages/gallery/gallery.component";
